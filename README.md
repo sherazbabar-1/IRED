@@ -5,7 +5,7 @@ Accepted at the ACM International Conference on Multimedia Retrieval
 ## Dataset and Code will be Available Soon.
 
 ## Overview
-IRED is an indoor risk recognition dataset designed for detecting abnormal and potentially hazardous indoor events using multimodal sensor data. The dataset includes time-varying environmental and motion signals collected across indoor scenes and annotated with risk-related event labels.
+IRED is an indoor risk recognition dataset designed for detecting abnormal and potentially hazardous indoor events using sensor data. The dataset includes time-varying environmental and motion signals collected across indoor scenes and annotated with risk-related event labels.
 
 ## Sample Dataset Entries
 
