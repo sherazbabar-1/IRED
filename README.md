@@ -1,43 +1,12 @@
-# IRED: An Indoor Risk Recognition Dataset
+# IRED: A Indoor Risk Recognition Dataset
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Available%20Soon-orange" alt="Status: Available Soon" />
-  <img src="https://img.shields.io/badge/Conference-ACM%20MMR-9b59b6" alt="ACM MMR" />
-  <img src="https://img.shields.io/badge/Domain-Indoor%20Risk%20Recognition-0e7490" alt="Indoor Risk Recognition" />
-</p>
-
-<p align="center">
-  <strong>Accepted at the ACM International Conference on Multimedia Retrieval</strong>
-</p>
-
----
+## Dataset and Code will be Available Soon.
 
 ## Overview
 
 IRED is an indoor risk recognition dataset created for detecting safety-related indoor events and abnormal patterns from sensor data. It is designed to support researchers and developers working on indoor monitoring, anomaly detection, hazard recognition, and smart home safety systems.
 
 The dataset contains sensor-driven event descriptions collected from indoor environments, annotated into risk categories such as unauthorized entry, fire or smoke events, gas leakage, falls, suspicious activity, and sensor faults.
-
----
-
-## Why this dataset matters
-
-- Detects real-world indoor safety risks
-- Supports event-based reasoning from sensor readings
-- Enables research in anomaly detection and risk classification
-- Useful for smart home, building monitoring, and security systems
-
----
-
-## Dataset Summary
-
-| Attribute | Details |
-|---|---|
-| Task | Indoor risk recognition |
-| Data Type | Sensor-based event descriptions |
-| Applications | Smart homes, security, monitoring, anomaly detection |
-| Annotation Type | Event-level labels |
-| Current Status | Dataset release coming soon |
 
 ---
 
@@ -76,6 +45,3 @@ The dataset contains sensor-driven event descriptions collected from indoor envi
 ## Coming Soon
 
 The full dataset, benchmark scripts, and documentation will be released in a future update.
-
-> Dataset and code will be available soon.
-
