@@ -1,15 +1,49 @@
-# IRED: A Indoor Risk Recognition Dataset
+# IRED: An Indoor Risk Recognition Dataset
 
-Accepted at the ACM International Conference on Multimedia Retrieval
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Available%20Soon-orange" alt="Status: Available Soon" />
+  <img src="https://img.shields.io/badge/Conference-ACM%20MMR-9b59b6" alt="ACM MMR" />
+  <img src="https://img.shields.io/badge/Domain-Indoor%20Risk%20Recognition-0e7490" alt="Indoor Risk Recognition" />
+</p>
 
-## Dataset and Code will be Available Soon.
+<p align="center">
+  <strong>Accepted at the ACM International Conference on Multimedia Retrieval</strong>
+</p>
+
+---
 
 ## Overview
-IRED is an indoor risk recognition dataset designed for detecting abnormal and potentially hazardous indoor events using sensor data. The dataset includes time-varying environmental and motion signals collected across indoor scenes and annotated with risk-related event labels.
 
-## Sample Dataset Entries
+IRED is an indoor risk recognition dataset created for detecting safety-related indoor events and abnormal patterns from sensor data. It is designed to support researchers and developers working on indoor monitoring, anomaly detection, hazard recognition, and smart home safety systems.
 
-| Sample ID | Description | Label ID | Class Name |
+The dataset contains sensor-driven event descriptions collected from indoor environments, annotated into risk categories such as unauthorized entry, fire or smoke events, gas leakage, falls, suspicious activity, and sensor faults.
+
+---
+
+## Why this dataset matters
+
+- Detects real-world indoor safety risks
+- Supports event-based reasoning from sensor readings
+- Enables research in anomaly detection and risk classification
+- Useful for smart home, building monitoring, and security systems
+
+---
+
+## Dataset Summary
+
+| Attribute | Details |
+|---|---|
+| Task | Indoor risk recognition |
+| Data Type | Sensor-based event descriptions |
+| Applications | Smart homes, security, monitoring, anomaly detection |
+| Annotation Type | Event-level labels |
+| Current Status | Dataset release coming soon |
+
+---
+
+## Sample Entries
+
+| Sample ID | Event Description | Label ID | Class |
 |---|---|---:|---|
 | Sample_001 | midnight sensor readings from the main entrance over 5 minutes; door contact was closed; humidity was near 42.1%; PIR motion appeared for about 24 seconds; light level stayed close to 48.0 lux; gas reading was near 0.2. | 5 | Suspicious Activity/Noise |
 | Sample_002 | dining area sensor stream during the afternoon for about 1 minute; gas reading was near 0.1; door contact was closed; vibration was around 0.2 g; PIR motion was detected for about 66 seconds; occupancy status was registered occupant present; one background reading shifted slightly; door contact was closed. | 0 | Normal Activity |
@@ -23,7 +57,9 @@ IRED is an indoor risk recognition dataset designed for detecting abnormal and p
 | Sample_010 | IoT monitoring summary from the basement during a 2 minutes morning interval; temperature was around 65.2 degrees Celsius; vibration was around 0.1 g; a partial reading was unavailable; CO was about 26.6 ppm; occupancy status was registered occupant present; PIR motion was intermittent for about 26 seconds; smoke reading was close to 0.8. | 2 | Fire/Smoke Event |
 | Sample_011 | during the afternoon, the staircase was monitored for nearly 3 minutes; temperature was around 18 degrees Celsius; the readings were not perfectly stable; CO was about 6 ppm; vibration was around 0 g; door contact was unchanged; occupancy status was unknown; the context was not fully clear from the available readings; sensor health was reported as stuck reading. | 6 | Sensor Fault/Anomaly |
 
-## Annotation Labels
+---
+
+## Label Taxonomy
 
 | Label ID | Class Name |
 |---|---|
@@ -35,5 +71,11 @@ IRED is an indoor risk recognition dataset designed for detecting abnormal and p
 | 5 | Suspicious Activity/Noise |
 | 6 | Sensor Fault/Anomaly |
 
-## Notes
-This repository is prepared as a dataset landing page and will be expanded with download links, documentation, scripts, and benchmark resources as the project matures.
+---
+
+## Coming Soon
+
+The full dataset, benchmark scripts, and documentation will be released in a future update.
+
+> Dataset and code will be available soon.
+
